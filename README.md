@@ -1,1 +1,1 @@
-# Modularization-CorePodSpecs-Module
+# Modularization-Core-Module
