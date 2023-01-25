@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+public protocol UseCaseType {
+    associatedtype Request
+    associatedtype Response
+    
+    func execute(request: Request) -> Response
+}
