@@ -120,7 +120,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.framework  = "SwiftUI"
-  spec.source_files = "**/*.{swift}"
+  spec.source_files = "Core/**/*.{swift}"
   spec.swift_version = "5.5"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
