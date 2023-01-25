@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform = :ios
-  spec.ios.deployment_target = '16.0'
+  spec.ios.deployment_target = '16.2'
   spec.name = "Core"
   spec.summary = "Learn Core.framework for modularization"
   spec.requires_arc = true
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:devileya/Modularization-Core-Module.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/devileya/Modularization-Core-Module", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
