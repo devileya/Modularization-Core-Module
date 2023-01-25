@@ -93,8 +93,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Core/**/*.{swift}"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.source_files  = "Core/**/*.{swift}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -119,8 +119,8 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.source_files = "Core/**/*.{swift}"
   spec.framework  = "SwiftUI"
+  spec.source_files = "Core/**/*.{swift}"
   spec.swift_version = "5.5"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
